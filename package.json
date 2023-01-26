@@ -1,0 +1,60 @@
+{
+  "name": "star-app-vue",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://kamilkazor.github.io/star-app-vue",
+  "repository": "https://github.com/kamilkazor/star-app-vue.git",
+  "author": {
+    "name": "Kamil Kazor",
+    "email": "79405091+kamilkazor@users.noreply.github.com",
+    "url": "https://github.com/kamilkazor"
+  },
+  "scripts": {
+    "test": "vitest --root src/",
+    "coverage": "vitest --coverage --root src/",
+    "dev": "vite --port 3000",
+    "build": "run-p type-check build-only",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@vueuse/head": "^1.0.22",
+    "axios": "^1.2.3",
+    "pinia": "^2.0.28",
+    "uuid": "^9.0.0",
+    "vue": "^3.2.45",
+    "vue-query": "^1.26.0",
+    "vue-router": "^4.1.6",
+    "zod": "^3.20.2"
+  },
+  "devDependencies": {
+    "@pinia/testing": "^0.0.14",
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/user-event": "^14.4.3",
+    "@testing-library/vue": "^6.6.1",
+    "@types/jsdom": "^20.0.1",
+    "@types/node": "^18.11.12",
+    "@types/uuid": "^9.0.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^11.0.0",
+    "@vue/test-utils": "^2.2.6",
+    "@vue/tsconfig": "^0.1.3",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "jsdom": "^20.0.3",
+    "msw": "^0.49.3",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.21",
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.2.4",
+    "typescript": "~4.7.4",
+    "vite": "^4.0.0",
+    "vitest": "^0.25.6",
+    "vue-tsc": "^1.0.12"
+  }
+}
