@@ -6,7 +6,7 @@ and vue-query for handling communication with the [SWAPI API](https://swapi.dev/
 The project also uses @vueuse/head for dynamic titles and zod for validation of API responses and form input.
 For the styling tailwind css was used. Finally, the app was tested with the help of vitest and vue testing-library. 
 
-You can check out a live version of the project [here](kamilkazor.github.io/star-app-vue).
+You can check out a live version of the project [here](https://kamilkazor.github.io/star-app-vue).
 
 The app also has its version written in react that can be found in [this repository](https://github.com/kamilkazor/star-app-react).
 
