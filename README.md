@@ -4,7 +4,7 @@
 Star-app-vue is a simple vue training project. The app utilizes vue-router for navigation, pinia as a simple store
 and vue-query for handling communication with the [SWAPI API](https://swapi.dev/).
 The project also uses @vueuse/head for dynamic titles and zod for validation of API responses and form input.
-For the styling tailwind css was used. Finally, the app was tested with the help of vitest and vue testing-library. 
+For the styling, tailwind css was used. Finally, the app was tested with the help of vitest and vue testing-library. 
 
 You can check out a live version of the project [here](https://kamilkazor.github.io/star-app-vue).
 
